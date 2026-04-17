@@ -1,0 +1,1242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="boleibol_federazioa.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<boleibol_federazioa>
+  <users>
+    <user>
+      <username>Urtzi</username>
+      <password>123</password>
+      <rol>admin</rol>
+    </user>
+    <user>
+      <username>Ekaitz</username>
+      <password>123</password>
+      <rol>admin</rol>
+    </user>
+    <user>
+      <username>Irati</username>
+      <password>123</password>
+      <rol>epaile</rol>
+    </user>
+    <user>
+      <username>Pepe</username>
+      <password>123</password>
+      <rol>erabiltzaile</rol>
+    </user>
+  </users>
+  <taldeak>
+    <!-- ===== MATIKO TXIRRINDULARIAK ===== -->
+    <taldea>
+      <taldeIzena>Matiko Txirrindulariak</taldeIzena>
+      <taldeLogoa>Matiko Txirrindulariak.png</taldeLogoa>
+      <taldeDeskribapena>Talde dinamiko eta indartsua, azkartasun eta koordinazio handia du
+                zelai barruan.</taldeDeskribapena>
+      <taldeLehendakaria>Aitor Etxebarria</taldeLehendakaria>
+      <taldeSorrera>1998</taldeSorrera>
+      <taldeZelaia>Fronton Matiko</taldeZelaia>
+      <zelaiArgazkia>matiko.jpg</zelaiArgazkia>
+      <jokalariak>
+        <jokalaria>
+          <jokalariZbk>1</jokalariZbk>
+          <jokalariIrudia>aitor.png</jokalariIrudia>
+          <jokalariIzenAbizena>Aitor Etxebarria</jokalariIzenAbizena>
+          <jokalariAdina>24</jokalariAdina>
+          <generoa>Mutila</generoa>
+          <jokalariPosizioa>Banatzailea</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>2</jokalariZbk>
+          <jokalariIrudia>nerea.png</jokalariIrudia>
+          <jokalariIzenAbizena>Nerea Ruiz</jokalariIzenAbizena>
+          <jokalariAdina>22</jokalariAdina>
+          <generoa>Neska</generoa>
+          <jokalariPosizioa>Aurkakoa</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>3</jokalariZbk>
+          <jokalariIrudia>iker.png</jokalariIrudia>
+          <jokalariIzenAbizena>Iker Goikoetxea</jokalariIzenAbizena>
+          <jokalariAdina>19</jokalariAdina>
+          <generoa>Mutila</generoa>
+          <jokalariPosizioa>Erdikoa</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>4</jokalariZbk>
+          <jokalariIrudia>maialen.png</jokalariIrudia>
+          <jokalariIzenAbizena>Maialen Arrieta</jokalariIzenAbizena>
+          <jokalariAdina>20</jokalariAdina>
+          <generoa>Neska</generoa>
+          <jokalariPosizioa>Rezeptorea/Erasotzailea</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>5</jokalariZbk>
+          <jokalariIrudia>unai.png</jokalariIrudia>
+          <jokalariIzenAbizena>Unai Aguirre</jokalariIzenAbizena>
+          <jokalariAdina>25</jokalariAdina>
+          <generoa>Mutila</generoa>
+          <jokalariPosizioa>Erdikoa</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>6</jokalariZbk>
+          <jokalariIrudia>ane.png</jokalariIrudia>
+          <jokalariIzenAbizena>Ane Larrinaga</jokalariIzenAbizena>
+          <jokalariAdina>18</jokalariAdina>
+          <generoa>Neska</generoa>
+          <jokalariPosizioa>Liberoa</jokalariPosizioa>
+        </jokalaria>
+      </jokalariak>
+    </taldea>
+    <!-- ===== MIRIBILLA UHINEN JOKOAK ===== -->
+    <taldea>
+      <taldeIzena>Miribilla Uhinen Jokoak</taldeIzena>
+      <taldeLogoa>Miribilla Uhinen Jokoak.png</taldeLogoa>
+      <taldeDeskribapena>Talde pozgarria eta sortzailea, jokoan fluidotasun eta koordinazio
+                bikaina duena. Horiak energia eta optimismoa adierazten du.</taldeDeskribapena>
+      <taldeLehendakaria>Leire Etxeberria</taldeLehendakaria>
+      <taldeSorrera>2002</taldeSorrera>
+      <taldeZelaia>Polideportivo Miribilla</taldeZelaia>
+      <zelaiArgazkia>miribilla.jpg</zelaiArgazkia>
+      <jokalariak>
+        <jokalaria>
+          <jokalariZbk>1</jokalariZbk>
+          <jokalariIrudia>jon.png</jokalariIrudia>
+          <jokalariIzenAbizena>Jon Zubizarreta</jokalariIzenAbizena>
+          <jokalariAdina>25</jokalariAdina>
+          <generoa>Mutila</generoa>
+          <jokalariPosizioa>Banatzailea</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>2</jokalariZbk>
+          <jokalariIrudia>leire.png</jokalariIrudia>
+          <jokalariIzenAbizena>Leire Etxeberria</jokalariIzenAbizena>
+          <jokalariAdina>22</jokalariAdina>
+          <generoa>Neska</generoa>
+          <jokalariPosizioa>Aurkakoa</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>3</jokalariZbk>
+          <jokalariIrudia>imanol.png</jokalariIrudia>
+          <jokalariIzenAbizena>Imanol Bilbao</jokalariIzenAbizena>
+          <jokalariAdina>24</jokalariAdina>
+          <generoa>Mutila</generoa>
+          <jokalariPosizioa>Erdikoa</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>4</jokalariZbk>
+          <jokalariIrudia>naiara.png</jokalariIrudia>
+          <jokalariIzenAbizena>Naiara Goitia</jokalariIzenAbizena>
+          <jokalariAdina>20</jokalariAdina>
+          <generoa>Neska</generoa>
+          <jokalariPosizioa>Hartutzailea/Erasotzailea</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>5</jokalariZbk>
+          <jokalariIrudia>gorka.png</jokalariIrudia>
+          <jokalariIzenAbizena>Gorka Mendizabal</jokalariIzenAbizena>
+          <jokalariAdina>23</jokalariAdina>
+          <generoa>Mutila</generoa>
+          <jokalariPosizioa>Erdikoa</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>6</jokalariZbk>
+          <jokalariIrudia>ainhoa.png</jokalariIrudia>
+          <jokalariIzenAbizena>Ainhoa Urkijo</jokalariIzenAbizena>
+          <jokalariAdina>21</jokalariAdina>
+          <generoa>Neska</generoa>
+          <jokalariPosizioa>Liberoa</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>7</jokalariZbk>
+          <jokalariIrudia>unai.png</jokalariIrudia>
+          <jokalariIzenAbizena>Unai Arruabarrena</jokalariIzenAbizena>
+          <jokalariAdina>26</jokalariAdina>
+          <generoa>Mutila</generoa>
+          <jokalariPosizioa>Banatzaile ordezkoa</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>8</jokalariZbk>
+          <jokalariIrudia>maite.png</jokalariIrudia>
+          <jokalariIzenAbizena>Maite Aranburu</jokalariIzenAbizena>
+          <jokalariAdina>19</jokalariAdina>
+          <generoa>Neska</generoa>
+          <jokalariPosizioa>Aurkakoa ordezkoa</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>9</jokalariZbk>
+          <jokalariIrudia>ander.png</jokalariIrudia>
+          <jokalariIzenAbizena>Ander Goienetxea</jokalariIzenAbizena>
+          <jokalariAdina>23</jokalariAdina>
+          <generoa>Mutila</generoa>
+          <jokalariPosizioa>Erdikoa ordezkoa</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>10</jokalariZbk>
+          <jokalariIrudia>irati.png</jokalariIrudia>
+          <jokalariIzenAbizena>Irati Etxebarria</jokalariIzenAbizena>
+          <jokalariAdina>18</jokalariAdina>
+          <generoa>Neska</generoa>
+          <jokalariPosizioa>Hartutzailea/Erasotzailea ordezkoa</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>11</jokalariZbk>
+          <jokalariIrudia>mikel.png</jokalariIrudia>
+          <jokalariIzenAbizena>Mikel Laka</jokalariIzenAbizena>
+          <jokalariAdina>24</jokalariAdina>
+          <generoa>Mutila</generoa>
+          <jokalariPosizioa>Erdikoa ordezkoa</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>12</jokalariZbk>
+          <jokalariIrudia>oihana.png</jokalariIrudia>
+          <jokalariIzenAbizena>Oihana Zabaleta</jokalariIzenAbizena>
+          <jokalariAdina>20</jokalariAdina>
+          <generoa>Neska</generoa>
+          <jokalariPosizioa>Liberoa ordezkoa</jokalariPosizioa>
+        </jokalaria>
+      </jokalariak>
+    </taldea>
+    <!-- ===== TXURDINAGA HARRIAK ===== -->
+    <taldea>
+      <taldeIzena>Txurdinaga Harriak</taldeIzena>
+      <taldeLogoa>Txurdinaga Harriak.png</taldeLogoa>
+      <taldeDeskribapena>Talde sendo eta egonkorra, defentsa indartsua eta jokoan
+                egonkortasuna dituena. Gorria pasioa eta determinazioa sinbolizatzen du.</taldeDeskribapena>
+      <taldeLehendakaria>Ander Goienetxea</taldeLehendakaria>
+      <taldeSorrera>2000</taldeSorrera>
+      <taldeZelaia>Frontón Txurdinaga</taldeZelaia>
+      <zelaiArgazkia>txurdi.jpg</zelaiArgazkia>
+      <jokalariak>
+        <jokalaria>
+          <jokalariZbk>1</jokalariZbk>
+          <jokalariIzenAbizena>Unai Arruabarrena</jokalariIzenAbizena>
+          <jokalariIrudia>unai.png</jokalariIrudia>
+          <jokalariAdina>24</jokalariAdina>
+          <generoa>Mutila</generoa>
+          <jokalariPosizioa>Banatzailea</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>2</jokalariZbk>
+          <jokalariIrudia>maite.png</jokalariIrudia>
+          <jokalariIzenAbizena>Maite Aranburu</jokalariIzenAbizena>
+          <jokalariAdina>20</jokalariAdina>
+          <generoa>Neska</generoa>
+          <jokalariPosizioa>Aurkakoa</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>3</jokalariZbk>
+          <jokalariIrudia>ander.png</jokalariIrudia>
+          <jokalariIzenAbizena>Ander Goienetxea</jokalariIzenAbizena>
+          <jokalariAdina>25</jokalariAdina>
+          <generoa>Mutila</generoa>
+          <jokalariPosizioa>Erdikoa</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>4</jokalariZbk>
+          <jokalariIrudia>irati.png</jokalariIrudia>
+          <jokalariIzenAbizena>Irati Etxebarria</jokalariIzenAbizena>
+          <jokalariAdina>21</jokalariAdina>
+          <generoa>Neska</generoa>
+          <jokalariPosizioa>Hartutzailea/Erasotzailea</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>5</jokalariZbk>
+          <jokalariIrudia>mikel.png</jokalariIrudia>
+          <jokalariIzenAbizena>Mikel Laka</jokalariIzenAbizena>
+          <jokalariAdina>26</jokalariAdina>
+          <generoa>Mutila</generoa>
+          <jokalariPosizioa>Erdikoa</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>6</jokalariZbk>
+          <jokalariIrudia>oihana.png</jokalariIrudia>
+          <jokalariIzenAbizena>Oihana Zabaleta</jokalariIzenAbizena>
+          <jokalariAdina>19</jokalariAdina>
+          <generoa>Neska</generoa>
+          <jokalariPosizioa>Liberoa</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>7</jokalariZbk>
+          <jokalariIrudia>aitor.png</jokalariIrudia>
+          <jokalariIzenAbizena>Aitor Bilbao</jokalariIzenAbizena>
+          <jokalariAdina>22</jokalariAdina>
+          <generoa>Mutila</generoa>
+          <jokalariPosizioa>Banatzaile ordezkoa</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>8</jokalariZbk>
+          <jokalariIrudia>leire.png</jokalariIrudia>
+          <jokalariIzenAbizena>Leire Mendieta</jokalariIzenAbizena>
+          <jokalariAdina>18</jokalariAdina>
+          <generoa>Neska</generoa>
+          <jokalariPosizioa>Aurkakoa ordezkoa</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>9</jokalariZbk>
+          <jokalariIrudia>iker.png</jokalariIrudia>
+          <jokalariIzenAbizena>Iker Bilbao</jokalariIzenAbizena>
+          <jokalariAdina>23</jokalariAdina>
+          <generoa>Mutila</generoa>
+          <jokalariPosizioa>Erdikoa ordezkoa</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>10</jokalariZbk>
+          <jokalariIrudia>ane.png</jokalariIrudia>
+          <jokalariIzenAbizena>Ane Goikoetxea</jokalariIzenAbizena>
+          <jokalariAdina>20</jokalariAdina>
+          <generoa>Neska</generoa>
+          <jokalariPosizioa>Hartutzailea/Erasotzailea ordezkoa</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>11</jokalariZbk>
+          <jokalariIrudia>jon.png</jokalariIrudia>
+          <jokalariIzenAbizena>Jon Uranga</jokalariIzenAbizena>
+          <jokalariAdina>24</jokalariAdina>
+          <generoa>Mutila</generoa>
+          <jokalariPosizioa>Erdikoa ordezkoa</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>12</jokalariZbk>
+          <jokalariIrudia>maialen.png</jokalariIrudia>
+          <jokalariIzenAbizena>Maialen Zubia</jokalariIzenAbizena>
+          <jokalariAdina>19</jokalariAdina>
+          <generoa>Neska</generoa>
+          <jokalariPosizioa>Liberoa ordezkoa</jokalariPosizioa>
+        </jokalaria>
+      </jokalariak>
+    </taldea>
+    <!-- ===== USANSOLO ORTZADAK ===== -->
+    <taldea>
+      <taldeIzena>Usansolo Ortzadak</taldeIzena>
+      <taldeLogoa>Usansolo Ortzadak.png</taldeLogoa>
+      <taldeDeskribapena>Talde dinamiko eta koloretsua, erasokorra eta ikusgarria. Urdinak
+                konfiantza eta estrategia adierazten du.</taldeDeskribapena>
+      <taldeLehendakaria>Gorka Arriola</taldeLehendakaria>
+      <taldeSorrera>2005</taldeSorrera>
+      <taldeZelaia>Polideportivo Usansolo</taldeZelaia>
+      <zelaiArgazkia>usansolo.jpg</zelaiArgazkia>
+      <jokalariak>
+        <jokalaria>
+          <jokalariZbk>1</jokalariZbk>
+          <jokalariIrudia>gorka.png</jokalariIrudia>
+          <jokalariIzenAbizena>Gorka Arriola</jokalariIzenAbizena>
+          <jokalariAdina>26</jokalariAdina>
+          <generoa>Mutila</generoa>
+          <jokalariPosizioa>Banatzailea</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>2</jokalariZbk>
+          <jokalariIrudia>leire.png</jokalariIrudia>
+          <jokalariIzenAbizena>Leire Mendieta</jokalariIzenAbizena>
+          <jokalariAdina>20</jokalariAdina>
+          <generoa>Neska</generoa>
+          <jokalariPosizioa>Aurkakoa</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>3</jokalariZbk>
+          <jokalariIrudia>iker.png</jokalariIrudia>
+          <jokalariIzenAbizena>Iker Bilbao</jokalariIzenAbizena>
+          <jokalariAdina>22</jokalariAdina>
+          <generoa>Mutila</generoa>
+          <jokalariPosizioa>Erdikoa</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>4</jokalariZbk>
+          <jokalariIrudia>ane.png</jokalariIrudia>
+          <jokalariIzenAbizena>Ane Goikoetxea</jokalariIzenAbizena>
+          <jokalariAdina>19</jokalariAdina>
+          <generoa>Neska</generoa>
+          <jokalariPosizioa>Hartutzailea/Erasotzailea</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>5</jokalariZbk>
+          <jokalariIrudia>jon.png</jokalariIrudia>
+          <jokalariIzenAbizena>Jon Uranga</jokalariIzenAbizena>
+          <jokalariAdina>25</jokalariAdina>
+          <generoa>Mutila</generoa>
+          <jokalariPosizioa>Erdikoa</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>6</jokalariZbk>
+          <jokalariIrudia>maialen.png</jokalariIrudia>
+          <jokalariIzenAbizena>Maialen Zubia</jokalariIzenAbizena>
+          <jokalariAdina>18</jokalariAdina>
+          <generoa>Neska</generoa>
+          <jokalariPosizioa>Liberoa</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>7</jokalariZbk>
+          <jokalariIrudia>aitor.png</jokalariIrudia>
+          <jokalariIzenAbizena>Aitor Goikoetxea</jokalariIzenAbizena>
+          <jokalariAdina>23</jokalariAdina>
+          <generoa>Mutila</generoa>
+          <jokalariPosizioa>Banatzaile ordezkoa</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>8</jokalariZbk>
+          <jokalariIrudia>nerea.png</jokalariIrudia>
+          <jokalariIzenAbizena>Nerea Ruiz</jokalariIzenAbizena>
+          <jokalariAdina>21</jokalariAdina>
+          <generoa>Neska</generoa>
+          <jokalariPosizioa>Aurkakoa ordezkoa</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>9</jokalariZbk>
+          <jokalariIrudia>unai.png</jokalariIrudia>
+          <jokalariIzenAbizena>Unai Etxebarria</jokalariIzenAbizena>
+          <jokalariAdina>22</jokalariAdina>
+          <generoa>Mutila</generoa>
+          <jokalariPosizioa>Erdikoa ordezkoa</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>10</jokalariZbk>
+          <jokalariIrudia>irati.png</jokalariIrudia>
+          <jokalariIzenAbizena>Irati Mendizabal</jokalariIzenAbizena>
+          <jokalariAdina>20</jokalariAdina>
+          <generoa>Neska</generoa>
+          <jokalariPosizioa>Hartutzailea/Erasotzailea ordezkoa</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>11</jokalariZbk>
+          <jokalariIrudia>mikel.png</jokalariIrudia>
+          <jokalariIzenAbizena>Mikel Laka</jokalariIzenAbizena>
+          <jokalariAdina>24</jokalariAdina>
+          <generoa>Mutila</generoa>
+          <jokalariPosizioa>Erdikoa ordezkoa</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>12</jokalariZbk>
+          <jokalariIrudia>ane.png</jokalariIrudia>
+          <jokalariIzenAbizena>Ane Larrinaga</jokalariIzenAbizena>
+          <jokalariAdina>19</jokalariAdina>
+          <generoa>Neska</generoa>
+          <jokalariPosizioa>Liberoa ordezkoa</jokalariPosizioa>
+        </jokalaria>
+      </jokalariak>
+    </taldea>
+    <!-- ===== SANTUTXU HAIZEAK ===== -->
+    <taldea>
+      <taldeIzena>Santutxu Haizeak</taldeIzena>
+      <taldeLogoa>Santutxu Haizeak.png</taldeLogoa>
+      <taldeDeskribapena>Talde azkarra eta taktikoa, haizeak bezala mugimendu azkarra eta
+                malgutasuna duena. Moreak sortzaintasuna eta ambizioa adierazten du.</taldeDeskribapena>
+      <taldeLehendakaria>Aitor Bilbao</taldeLehendakaria>
+      <taldeSorrera>1997</taldeSorrera>
+      <taldeZelaia>Frontón Santutxu</taldeZelaia>
+      <zelaiArgazkia>santutxu.png</zelaiArgazkia>
+      <jokalariak>
+        <jokalaria>
+          <jokalariZbk>1</jokalariZbk>
+          <jokalariIrudia>aitor.png</jokalariIrudia>
+          <jokalariIzenAbizena>Aitor Bilbao</jokalariIzenAbizena>
+          <jokalariAdina>26</jokalariAdina>
+          <generoa>Mutila</generoa>
+          <jokalariPosizioa>Banatzailea</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>2</jokalariZbk>
+          <jokalariIrudia>oihana.png</jokalariIrudia>
+          <jokalariIzenAbizena>Oihana Aranburu</jokalariIzenAbizena>
+          <jokalariAdina>22</jokalariAdina>
+          <generoa>Neska</generoa>
+          <jokalariPosizioa>Aurkakoa</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>3</jokalariZbk>
+          <jokalariIrudia>mikel.png</jokalariIrudia>
+          <jokalariIzenAbizena>Mikel Etxebarria</jokalariIzenAbizena>
+          <jokalariAdina>25</jokalariAdina>
+          <generoa>Mutila</generoa>
+          <jokalariPosizioa>Erdikoa</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>4</jokalariZbk>
+          <jokalariIrudia>irati.png</jokalariIrudia>
+          <jokalariIzenAbizena>Irati Mendizabal</jokalariIzenAbizena>
+          <jokalariAdina>20</jokalariAdina>
+          <generoa>Neska</generoa>
+          <jokalariPosizioa>Hartutzailea/Erasotzailea</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>5</jokalariZbk>
+          <jokalariIrudia>unai.png</jokalariIrudia>
+          <jokalariIzenAbizena>Unai Goitia</jokalariIzenAbizena>
+          <jokalariAdina>23</jokalariAdina>
+          <generoa>Mutila</generoa>
+          <jokalariPosizioa>Erdikoa</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>6</jokalariZbk>
+          <jokalariIrudia>leire.png</jokalariIrudia>
+          <jokalariIzenAbizena>Leire Zabaleta</jokalariIzenAbizena>
+          <jokalariAdina>18</jokalariAdina>
+          <generoa>Neska</generoa>
+          <jokalariPosizioa>Liberoa</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>7</jokalariZbk>
+          <jokalariIrudia>jon.png</jokalariIrudia>
+          <jokalariIzenAbizena>Jon Zubia</jokalariIzenAbizena>
+          <jokalariAdina>24</jokalariAdina>
+          <generoa>Mutila</generoa>
+          <jokalariPosizioa>Banatzaile ordezkoa</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>8</jokalariZbk>
+          <jokalariIrudia>maite.png</jokalariIrudia>
+          <jokalariIzenAbizena>Maite Aranburu</jokalariIzenAbizena>
+          <jokalariAdina>21</jokalariAdina>
+          <generoa>Neska</generoa>
+          <jokalariPosizioa>Aurkakoa ordezkoa</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>9</jokalariZbk>
+          <jokalariIrudia>ander.png</jokalariIrudia>
+          <jokalariIzenAbizena>Ander Goienetxea</jokalariIzenAbizena>
+          <jokalariAdina>26</jokalariAdina>
+          <generoa>Mutila</generoa>
+          <jokalariPosizioa>Erdikoa ordezkoa</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>10</jokalariZbk>
+          <jokalariIrudia>ane.png</jokalariIrudia>
+          <jokalariIzenAbizena>Ane Larrinaga</jokalariIzenAbizena>
+          <jokalariAdina>19</jokalariAdina>
+          <generoa>Neska</generoa>
+          <jokalariPosizioa>Hartutzailea/Erasotzailea ordezkoa</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>11</jokalariZbk>
+          <jokalariIrudia>mikel.png</jokalariIrudia>
+          <jokalariIzenAbizena>Mikel Laka</jokalariIzenAbizena>
+          <jokalariAdina>23</jokalariAdina>
+          <generoa>Mutila</generoa>
+          <jokalariPosizioa>Erdikoa ordezkoa</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>12</jokalariZbk>
+          <jokalariIrudia>oihana.png</jokalariIrudia>
+          <jokalariIzenAbizena>Oihana Goikoetxea</jokalariIzenAbizena>
+          <jokalariAdina>20</jokalariAdina>
+          <generoa>Neska</generoa>
+          <jokalariPosizioa>Liberoa ordezkoa</jokalariPosizioa>
+        </jokalaria>
+      </jokalariak>
+    </taldea>
+    <!-- ===== OTXARKOAGA DISTIRA ===== -->
+    <taldea>
+      <taldeIzena>Otxarkoaga Distira</taldeIzena>
+      <taldeLogoa>Otxarkoaga Distira.png</taldeLogoa>
+      <taldeDeskribapena>Talde gaztea eta ikusgarria, jokoan eragina eta distira duten
+                jokalariekin. Grisak serioa eta egonkortasuna adierazten du, eta distirak energia
+                eta ikusgarritasuna.</taldeDeskribapena>
+      <taldeLehendakaria>Iker Arrieta</taldeLehendakaria>
+      <taldeSorrera>2010</taldeSorrera>
+      <taldeZelaia>Polideportivo Otxarkoaga</taldeZelaia>
+      <zelaiArgazkia>otxarkoaga.jpg</zelaiArgazkia>
+      <jokalariak>
+        <jokalaria>
+          <jokalariZbk>1</jokalariZbk>
+          <jokalariIrudia>iker.png</jokalariIrudia>
+          <jokalariIzenAbizena>Iker Arrieta</jokalariIzenAbizena>
+          <jokalariAdina>26</jokalariAdina>
+          <generoa>Mutila</generoa>
+          <jokalariPosizioa>Banatzailea</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>2</jokalariZbk>
+          <jokalariIrudia>maialen.png</jokalariIrudia>
+          <jokalariIzenAbizena>Maialen Bilbao</jokalariIzenAbizena>
+          <jokalariAdina>18</jokalariAdina>
+          <generoa>Neska</generoa>
+          <jokalariPosizioa>Aurkakoa</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>3</jokalariZbk>
+          <jokalariIrudia>ander.png</jokalariIrudia>
+          <jokalariIzenAbizena>Ander Mendieta</jokalariIzenAbizena>
+          <jokalariAdina>23</jokalariAdina>
+          <generoa>Mutila</generoa>
+          <jokalariPosizioa>Erdikoa</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>4</jokalariZbk>
+          <jokalariIrudia>ane.png</jokalariIrudia>
+          <jokalariIzenAbizena>Ane Larrinaga</jokalariIzenAbizena>
+          <jokalariAdina>19</jokalariAdina>
+          <generoa>Neska</generoa>
+          <jokalariPosizioa>Hartutzailea/Erasotzailea</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>5</jokalariZbk>
+          <jokalariIrudia>jon.png</jokalariIrudia>
+          <jokalariIzenAbizena>Jon Zubia</jokalariIzenAbizena>
+          <jokalariAdina>25</jokalariAdina>
+          <generoa>Mutila</generoa>
+          <jokalariPosizioa>Erdikoa</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>6</jokalariZbk>
+          <jokalariIrudia>oihana.png</jokalariIrudia>
+          <jokalariIzenAbizena>Oihana Goikoetxea</jokalariIzenAbizena>
+          <jokalariAdina>20</jokalariAdina>
+          <generoa>Neska</generoa>
+          <jokalariPosizioa>Liberoa</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>7</jokalariZbk>
+          <jokalariIrudia>unai.png</jokalariIrudia>
+          <jokalariIzenAbizena>Unai Aguirre</jokalariIzenAbizena>
+          <jokalariAdina>22</jokalariAdina>
+          <generoa>Mutila</generoa>
+          <jokalariPosizioa>Banatzaile ordezkoa</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>8</jokalariZbk>
+          <jokalariIrudia>nerea.png</jokalariIrudia>
+          <jokalariIzenAbizena>Nerea Ruiz</jokalariIzenAbizena>
+          <jokalariAdina>21</jokalariAdina>
+          <generoa>Neska</generoa>
+          <jokalariPosizioa>Aurkakoa ordezkoa</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>9</jokalariZbk>
+          <jokalariIrudia>iker.png</jokalariIrudia>
+          <jokalariIzenAbizena>Iker Goikoetxea</jokalariIzenAbizena>
+          <jokalariAdina>18</jokalariAdina>
+          <generoa>Mutila</generoa>
+          <jokalariPosizioa>Erdikoa ordezkoa</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>10</jokalariZbk>
+          <jokalariIrudia>irati.png</jokalariIrudia>
+          <jokalariIzenAbizena>Irati Etxebarria</jokalariIzenAbizena>
+          <jokalariAdina>20</jokalariAdina>
+          <generoa>Neska</generoa>
+          <jokalariPosizioa>Hartutzailea/Erasotzailea ordezkoa</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>11</jokalariZbk>
+          <jokalariIrudia>mikel.png</jokalariIrudia>
+          <jokalariIzenAbizena>Mikel Laka</jokalariIzenAbizena>
+          <jokalariAdina>23</jokalariAdina>
+          <generoa>Mutila</generoa>
+          <jokalariPosizioa>Erdikoa ordezkoa</jokalariPosizioa>
+        </jokalaria>
+        <jokalaria>
+          <jokalariZbk>12</jokalariZbk>
+          <jokalariIrudia>ane.png</jokalariIrudia>
+          <jokalariIzenAbizena>Ane Goikoetxea</jokalariIzenAbizena>
+          <jokalariAdina>19</jokalariAdina>
+          <generoa>Neska</generoa>
+          <jokalariPosizioa>Liberoa ordezkoa</jokalariPosizioa>
+        </jokalaria>
+      </jokalariak>
+    </taldea>
+  </taldeak>
+  <denboraldiak>
+    <!-- 2024-2025 DENBORALDIA-->
+    <denboraldia>
+      <denboraldiIzena>2024-2025 Denboraldia</denboraldiIzena>
+      <hasieraData>2024-09-01</hasieraData>
+      <amaieraData>2025-06-30</amaieraData>
+      <!-- JARDUNALDIAK -->
+      <jardunaldiak>
+        <!-- 1. JARDUNALDIA -->
+        <jardunaldia>
+          <jardunaldiZbk>1</jardunaldiZbk>
+          <partidak>
+            <partida>
+              <etxekoTaldea>Matiko Txirrindulariak</etxekoTaldea>
+              <etxekoLogoa>Matiko Txirrindulariak.png</etxekoLogoa>
+              <kanpokoTaldea>Miribilla Uhinen Jokoak</kanpokoTaldea>
+              <kanpokoLogoa>Miribilla Uhinen Jokoak.png</kanpokoLogoa>
+              <emaitza>3-1</emaitza>
+            </partida>
+            <partida>
+              <etxekoTaldea>Txurdinaga Harriak</etxekoTaldea>
+              <etxekoLogoa>Txurdinaga Harriak.png</etxekoLogoa>
+              <kanpokoTaldea>Usansolo Ortzadak</kanpokoTaldea>
+              <kanpokoLogoa>Usansolo Ortzadak.png</kanpokoLogoa>
+              <emaitza>3-0</emaitza>
+            </partida>
+            <partida>
+              <etxekoTaldea>Santutxu Haizeak</etxekoTaldea>
+              <etxekoLogoa>Santutxu Haizeak.png</etxekoLogoa>
+              <kanpokoTaldea>Otxarkoaga Distira</kanpokoTaldea>
+              <kanpokoLogoa>Otxarkoaga Distira.png</kanpokoLogoa>
+              <emaitza>3-2</emaitza>
+            </partida>
+          </partidak>
+        </jardunaldia>
+        <!-- 2. JARDUNALDIA -->
+        <jardunaldia>
+          <jardunaldiZbk>2</jardunaldiZbk>
+          <partidak>
+            <partida>
+              <etxekoTaldea>Matiko Txirrindulariak</etxekoTaldea>
+              <etxekoLogoa>Matiko Txirrindulariak.png</etxekoLogoa>
+              <kanpokoTaldea>Txurdinaga Harriak</kanpokoTaldea>
+              <kanpokoLogoa>Txurdinaga Harriak.png</kanpokoLogoa>
+              <emaitza>3-1</emaitza>
+            </partida>
+            <partida>
+              <etxekoTaldea>Miribilla Uhinen Jokoak</etxekoTaldea>
+              <etxekoLogoa>Miribilla Uhinen Jokoak.png</etxekoLogoa>
+              <kanpokoTaldea>Santutxu Haizeak</kanpokoTaldea>
+              <kanpokoLogoa>Santutxu Haizeak.png</kanpokoLogoa>
+            </partida>
+            <partida>
+              <etxekoTaldea>Usansolo Ortzadak</etxekoTaldea>
+              <etxekoLogoa>Usansolo Ortzadak.png</etxekoLogoa>
+              <kanpokoTaldea>Otxarkoaga Distira</kanpokoTaldea>
+              <kanpokoLogoa>Otxarkoaga Distira.png</kanpokoLogoa>
+            </partida>
+          </partidak>
+        </jardunaldia>
+        <!-- 3. JARDUNALDIA -->
+        <jardunaldia>
+          <jardunaldiZbk>3</jardunaldiZbk>
+          <partidak>
+            <partida>
+              <etxekoTaldea>Matiko Txirrindulariak</etxekoTaldea>
+              <etxekoLogoa>Matiko Txirrindulariak.png</etxekoLogoa>
+              <kanpokoTaldea>Usansolo Ortzadak</kanpokoTaldea>
+              <kanpokoLogoa>Usansolo Ortzadak.png</kanpokoLogoa>
+            </partida>
+            <partida>
+              <etxekoTaldea>Txurdinaga Harriak</etxekoTaldea>
+              <etxekoLogoa>Txurdinaga Harriak.png</etxekoLogoa>
+              <kanpokoTaldea>Santutxu Haizeak</kanpokoTaldea>
+              <kanpokoLogoa>Santutxu Haizeak.png</kanpokoLogoa>
+            </partida>
+            <partida>
+              <etxekoTaldea>Miribilla Uhinen Jokoak</etxekoTaldea>
+              <etxekoLogoa>Miribilla Uhinen Jokoak.png</etxekoLogoa>
+              <kanpokoTaldea>Otxarkoaga Distira</kanpokoTaldea>
+              <kanpokoLogoa>Otxarkoaga Distira.png</kanpokoLogoa>
+            </partida>
+          </partidak>
+        </jardunaldia>
+        <!-- 4. JARDUNALDIA -->
+        <jardunaldia>
+          <jardunaldiZbk>4</jardunaldiZbk>
+          <partidak>
+            <partida>
+              <etxekoTaldea>Matiko Txirrindulariak</etxekoTaldea>
+              <etxekoLogoa>Matiko Txirrindulariak.png</etxekoLogoa>
+              <kanpokoTaldea>Santutxu Haizeak</kanpokoTaldea>
+              <kanpokoLogoa>Santutxu Haizeak.png</kanpokoLogoa>
+            </partida>
+            <partida>
+              <etxekoTaldea>Usansolo Ortzadak</etxekoTaldea>
+              <etxekoLogoa>Usansolo Ortzadak.png</etxekoLogoa>
+              <kanpokoTaldea>Miribilla Uhinen Jokoak</kanpokoTaldea>
+              <kanpokoLogoa>Miribilla Uhinen Jokoak.png</kanpokoLogoa>
+            </partida>
+            <partida>
+              <etxekoTaldea>Txurdinaga Harriak</etxekoTaldea>
+              <etxekoLogoa>Txurdinaga Harriak.png</etxekoLogoa>
+              <kanpokoTaldea>Otxarkoaga Distira</kanpokoTaldea>
+              <kanpokoLogoa>Otxarkoaga Distira.png</kanpokoLogoa>
+            </partida>
+          </partidak>
+        </jardunaldia>
+        <!-- 5. JARDUNALDIA -->
+        <jardunaldia>
+          <jardunaldiZbk>5</jardunaldiZbk>
+          <partidak>
+            <partida>
+              <etxekoTaldea>Matiko Txirrindulariak</etxekoTaldea>
+              <etxekoLogoa>Matiko Txirrindulariak.png</etxekoLogoa>
+              <kanpokoTaldea>Otxarkoaga Distira</kanpokoTaldea>
+              <kanpokoLogoa>Otxarkoaga Distira.png</kanpokoLogoa>
+            </partida>
+            <partida>
+              <etxekoTaldea>Santutxu Haizeak</etxekoTaldea>
+              <etxekoLogoa>Santutxu Haizeak.png</etxekoLogoa>
+              <kanpokoTaldea>Usansolo Ortzadak</kanpokoTaldea>
+              <kanpokoLogoa>Usansolo Ortzadak.png</kanpokoLogoa>
+            </partida>
+            <partida>
+              <etxekoTaldea>Miribilla Uhinen Jokoak</etxekoTaldea>
+              <etxekoLogoa>Miribilla Uhinen Jokoak.png</etxekoLogoa>
+              <kanpokoTaldea>Txurdinaga Harriak</kanpokoTaldea>
+              <kanpokoLogoa>Txurdinaga Harriak.png</kanpokoLogoa>
+            </partida>
+          </partidak>
+        </jardunaldia>
+      </jardunaldiak>
+      <!-- SAILKAPENA -->
+      <sailkapena>
+        <taldeSailkapena>
+          <postua>1</postua>
+          <taldeIzena>Matiko Txirrindulariak</taldeIzena>
+          <jokatutakoPartidak>5</jokatutakoPartidak>
+          <irabazitakoak>5</irabazitakoak>
+          <galduak>0</galduak>
+          <setakAlde>15</setakAlde>
+          <setakKontra>4</setakKontra>
+          <puntuak>15</puntuak>
+        </taldeSailkapena>
+        <taldeSailkapena>
+          <postua>2</postua>
+          <taldeIzena>Txurdinaga Harriak</taldeIzena>
+          <jokatutakoPartidak>5</jokatutakoPartidak>
+          <irabazitakoak>4</irabazitakoak>
+          <galduak>1</galduak>
+          <setakAlde>13</setakAlde>
+          <setakKontra>6</setakKontra>
+          <puntuak>12</puntuak>
+        </taldeSailkapena>
+        <taldeSailkapena>
+          <postua>3</postua>
+          <taldeIzena>Santutxu Haizeak</taldeIzena>
+          <jokatutakoPartidak>5</jokatutakoPartidak>
+          <irabazitakoak>3</irabazitakoak>
+          <galduak>2</galduak>
+          <setakAlde>11</setakAlde>
+          <setakKontra>9</setakKontra>
+          <puntuak>9</puntuak>
+        </taldeSailkapena>
+        <taldeSailkapena>
+          <postua>4</postua>
+          <taldeIzena>Miribilla Uhinen Jokoak</taldeIzena>
+          <jokatutakoPartidak>5</jokatutakoPartidak>
+          <irabazitakoak>2</irabazitakoak>
+          <galduak>3</galduak>
+          <setakAlde>8</setakAlde>
+          <setakKontra>11</setakKontra>
+          <puntuak>6</puntuak>
+        </taldeSailkapena>
+        <taldeSailkapena>
+          <postua>5</postua>
+          <taldeIzena>Usansolo Ortzadak</taldeIzena>
+          <jokatutakoPartidak>5</jokatutakoPartidak>
+          <irabazitakoak>1</irabazitakoak>
+          <galduak>4</galduak>
+          <setakAlde>6</setakAlde>
+          <setakKontra>13</setakKontra>
+          <puntuak>3</puntuak>
+        </taldeSailkapena>
+        <taldeSailkapena>
+          <postua>6</postua>
+          <taldeIzena>Otxarkoaga Distira</taldeIzena>
+          <jokatutakoPartidak>5</jokatutakoPartidak>
+          <irabazitakoak>0</irabazitakoak>
+          <galduak>5</galduak>
+          <setakAlde>2</setakAlde>
+          <setakKontra>15</setakKontra>
+          <puntuak>0</puntuak>
+        </taldeSailkapena>
+      </sailkapena>
+    </denboraldia>
+    <!-- 2023-2024 DENBORALDIA-->
+    <denboraldia>
+      <denboraldiIzena>2023-2024 Denboraldia</denboraldiIzena>
+      <hasieraData>2023-09-01</hasieraData>
+      <amaieraData>2024-06-30</amaieraData>
+      <!-- JARDUNALDIAK -->
+      <jardunaldiak>
+        <!-- JORNADA 1 -->
+        <jardunaldia>
+          <jardunaldiZbk>1</jardunaldiZbk>
+          <partidak>
+            <partida>
+              <etxekoTaldea>Matiko Txirrindulariak</etxekoTaldea>
+              <etxekoLogoa>Matiko Txirrindulariak.png</etxekoLogoa>
+              <kanpokoTaldea>Miribilla Uhinen Jokoak</kanpokoTaldea>
+              <kanpokoLogoa>Miribilla Uhinen Jokoak.png</kanpokoLogoa>
+              <emaitza>3-1</emaitza>
+            </partida>
+            <partida>
+              <etxekoTaldea>Txurdinaga Harriak</etxekoTaldea>
+              <etxekoLogoa>Txurdinaga Harriak.png</etxekoLogoa>
+              <kanpokoTaldea>Usansolo Ortzadak</kanpokoTaldea>
+              <kanpokoLogoa>Usansolo Ortzadak.png</kanpokoLogoa>
+              <emaitza>3-0</emaitza>
+            </partida>
+            <partida>
+              <etxekoTaldea>Santutxu Haizeak</etxekoTaldea>
+              <etxekoLogoa>Santutxu Haizeak.png</etxekoLogoa>
+              <kanpokoTaldea>Otxarkoaga Distira</kanpokoTaldea>
+              <kanpokoLogoa>Otxarkoaga Distira.png</kanpokoLogoa>
+              <emaitza>3-2</emaitza>
+            </partida>
+          </partidak>
+        </jardunaldia>
+        <!-- JORNADA 2 -->
+        <jardunaldia>
+          <jardunaldiZbk>2</jardunaldiZbk>
+          <partidak>
+            <partida>
+              <etxekoTaldea>Matiko Txirrindulariak</etxekoTaldea>
+              <etxekoLogoa>Matiko Txirrindulariak.png</etxekoLogoa>
+              <kanpokoTaldea>Txurdinaga Harriak</kanpokoTaldea>
+              <kanpokoLogoa>Txurdinaga Harriak.png</kanpokoLogoa>
+              <emaitza>2-3</emaitza>
+            </partida>
+            <partida>
+              <etxekoTaldea>Miribilla Uhinen Jokoak</etxekoTaldea>
+              <etxekoLogoa>Miribilla Uhinen Jokoak.png</etxekoLogoa>
+              <kanpokoTaldea>Santutxu Haizeak</kanpokoTaldea>
+              <kanpokoLogoa>Santutxu Haizeak.png</kanpokoLogoa>
+              <emaitza>3-0</emaitza>
+            </partida>
+            <partida>
+              <etxekoTaldea>Usansolo Ortzadak</etxekoTaldea>
+              <etxekoLogoa>Usansolo Ortzadak.png</etxekoLogoa>
+              <kanpokoTaldea>Otxarkoaga Distira</kanpokoTaldea>
+              <kanpokoLogoa>Otxarkoaga Distira.png</kanpokoLogoa>
+              <emaitza>1-3</emaitza>
+            </partida>
+          </partidak>
+        </jardunaldia>
+        <!-- JORNADA 3 -->
+        <jardunaldia>
+          <jardunaldiZbk>3</jardunaldiZbk>
+          <partidak>
+            <partida>
+              <etxekoTaldea>Matiko Txirrindulariak</etxekoTaldea>
+              <etxekoLogoa>Matiko Txirrindulariak.png</etxekoLogoa>
+              <kanpokoTaldea>Usansolo Ortzadak</kanpokoTaldea>
+              <kanpokoLogoa>Usansolo Ortzadak.png</kanpokoLogoa>
+              <emaitza>3-0</emaitza>
+            </partida>
+            <partida>
+              <etxekoTaldea>Txurdinaga Harriak</etxekoTaldea>
+              <etxekoLogoa>Txurdinaga Harriak.png</etxekoLogoa>
+              <kanpokoTaldea>Santutxu Haizeak</kanpokoTaldea>
+              <kanpokoLogoa>Santutxu Haizeak.png</kanpokoLogoa>
+              <emaitza>3-1</emaitza>
+            </partida>
+            <partida>
+              <etxekoTaldea>Miribilla Uhinen Jokoak</etxekoTaldea>
+              <etxekoLogoa>Miribilla Uhinen Jokoak.png</etxekoLogoa>
+              <kanpokoTaldea>Otxarkoaga Distira</kanpokoTaldea>
+              <kanpokoLogoa>Otxarkoaga Distira.png</kanpokoLogoa>
+              <emaitza>2-3</emaitza>
+            </partida>
+          </partidak>
+        </jardunaldia>
+        <!-- JORNADA 4 -->
+        <jardunaldia>
+          <jardunaldiZbk>4</jardunaldiZbk>
+          <partidak>
+            <partida>
+              <etxekoTaldea>Matiko Txirrindulariak</etxekoTaldea>
+              <etxekoLogoa>Matiko Txirrindulariak.png</etxekoLogoa>
+              <kanpokoTaldea>Santutxu Haizeak</kanpokoTaldea>
+              <kanpokoLogoa>Santutxu Haizeak.png</kanpokoLogoa>
+              <emaitza>3-2</emaitza>
+            </partida>
+            <partida>
+              <etxekoTaldea>Usansolo Ortzadak</etxekoTaldea>
+              <etxekoLogoa>Usansolo Ortzadak.png</etxekoLogoa>
+              <kanpokoTaldea>Miribilla Uhinen Jokoak</kanpokoTaldea>
+              <kanpokoLogoa>Miribilla Uhinen Jokoak.png</kanpokoLogoa>
+              <emaitza>0-3</emaitza>
+            </partida>
+            <partida>
+              <etxekoTaldea>Txurdinaga Harriak</etxekoTaldea>
+              <etxekoLogoa>Txurdinaga Harriak.png</etxekoLogoa>
+              <kanpokoTaldea>Otxarkoaga Distira</kanpokoTaldea>
+              <kanpokoLogoa>Otxarkoaga Distira.png</kanpokoLogoa>
+              <emaitza>3-1</emaitza>
+            </partida>
+          </partidak>
+        </jardunaldia>
+        <!-- JORNADA 5 -->
+        <jardunaldia>
+          <jardunaldiZbk>5</jardunaldiZbk>
+          <partidak>
+            <partida>
+              <etxekoTaldea>Matiko Txirrindulariak</etxekoTaldea>
+              <etxekoLogoa>Matiko Txirrindulariak.png</etxekoLogoa>
+              <kanpokoTaldea>Otxarkoaga Distira</kanpokoTaldea>
+              <kanpokoLogoa>Otxarkoaga Distira.png</kanpokoLogoa>
+              <emaitza>3-0</emaitza>
+            </partida>
+            <partida>
+              <etxekoTaldea>Santutxu Haizeak</etxekoTaldea>
+              <etxekoLogoa>Santutxu Haizeak.png</etxekoLogoa>
+              <kanpokoTaldea>Usansolo Ortzadak</kanpokoTaldea>
+              <kanpokoLogoa>Usansolo Ortzadak.png</kanpokoLogoa>
+              <emaitza>1-3</emaitza>
+            </partida>
+            <partida>
+              <etxekoTaldea>Miribilla Uhinen Jokoak</etxekoTaldea>
+              <etxekoLogoa>Miribilla Uhinen Jokoak.png</etxekoLogoa>
+              <kanpokoTaldea>Txurdinaga Harriak</kanpokoTaldea>
+              <kanpokoLogoa>Txurdinaga Harriak.png</kanpokoLogoa>
+              <emaitza>0-3</emaitza>
+            </partida>
+          </partidak>
+        </jardunaldia>
+      </jardunaldiak>
+      <sailkapena>
+        <taldeSailkapena>
+          <postua>1</postua>
+          <taldeIzena>Txurdinaga Harriak</taldeIzena>
+          <jokatutakoPartidak>5</jokatutakoPartidak>
+          <irabazitakoak>5</irabazitakoak>
+          <galduak>0</galduak>
+          <setakAlde>15</setakAlde>
+          <setakKontra>3</setakKontra>
+          <puntuak>15</puntuak>
+        </taldeSailkapena>
+        <taldeSailkapena>
+          <postua>2</postua>
+          <taldeIzena>Matiko Txirrindulariak</taldeIzena>
+          <jokatutakoPartidak>5</jokatutakoPartidak>
+          <irabazitakoak>4</irabazitakoak>
+          <galduak>1</galduak>
+          <setakAlde>14</setakAlde>
+          <setakKontra>6</setakKontra>
+          <puntuak>12</puntuak>
+        </taldeSailkapena>
+        <taldeSailkapena>
+          <postua>3</postua>
+          <taldeIzena>Otxarkoaga Distira</taldeIzena>
+          <jokatutakoPartidak>5</jokatutakoPartidak>
+          <irabazitakoak>2</irabazitakoak>
+          <galduak>3</galduak>
+          <setakAlde>9</setakAlde>
+          <setakKontra>11</setakKontra>
+          <puntuak>6</puntuak>
+        </taldeSailkapena>
+        <taldeSailkapena>
+          <postua>4</postua>
+          <taldeIzena>Miribilla Uhinen Jokoak</taldeIzena>
+          <jokatutakoPartidak>5</jokatutakoPartidak>
+          <irabazitakoak>2</irabazitakoak>
+          <galduak>3</galduak>
+          <setakAlde>8</setakAlde>
+          <setakKontra>11</setakKontra>
+          <puntuak>6</puntuak>
+        </taldeSailkapena>
+        <taldeSailkapena>
+          <postua>5</postua>
+          <taldeIzena>Santutxu Haizeak</taldeIzena>
+          <jokatutakoPartidak>5</jokatutakoPartidak>
+          <irabazitakoak>1</irabazitakoak>
+          <galduak>4</galduak>
+          <setakAlde>6</setakAlde>
+          <setakKontra>13</setakKontra>
+          <puntuak>3</puntuak>
+        </taldeSailkapena>
+        <taldeSailkapena>
+          <postua>6</postua>
+          <taldeIzena>Usansolo Ortzadak</taldeIzena>
+          <jokatutakoPartidak>5</jokatutakoPartidak>
+          <irabazitakoak>0</irabazitakoak>
+          <galduak>5</galduak>
+          <setakAlde>2</setakAlde>
+          <setakKontra>15</setakKontra>
+          <puntuak>0</puntuak>
+        </taldeSailkapena>
+      </sailkapena>
+    </denboraldia>
+    <!-- 2022-2023 DENBORALDIA -->
+    <denboraldia>
+      <denboraldiIzena>2022-2023 Denboraldia</denboraldiIzena>
+      <jardunaldiak>
+        <!-- 1 JARDUNALDIA -->
+        <jardunaldia>
+          <jardunaldiZbk>1</jardunaldiZbk>
+          <partidak>
+            <partida>
+              <etxekoTaldea>Matiko Txirrindulariak</etxekoTaldea>
+              <etxekoLogoa>Matiko Txirrindulariak.png</etxekoLogoa>
+              <kanpokoTaldea>Miribilla Uhinen Jokoak</kanpokoTaldea>
+              <kanpokoLogoa>Miribilla Uhinen Jokoak.png</kanpokoLogoa>
+              <emaitza>3-2</emaitza>
+            </partida>
+            <partida>
+              <etxekoTaldea>Txurdinaga Harriak</etxekoTaldea>
+              <etxekoLogoa>Txurdinaga Harriak.png</etxekoLogoa>
+              <kanpokoTaldea>Usansolo Ortzadak</kanpokoTaldea>
+              <kanpokoLogoa>Usansolo Ortzadak.png</kanpokoLogoa>
+              <emaitza>3-1</emaitza>
+            </partida>
+            <partida>
+              <etxekoTaldea>Santutxu Haizeak</etxekoTaldea>
+              <etxekoLogoa>Santutxu Haizeak.png</etxekoLogoa>
+              <kanpokoTaldea>Otxarkoaga Distira</kanpokoTaldea>
+              <kanpokoLogoa>Otxarkoaga Distira.png</kanpokoLogoa>
+              <emaitza>2-3</emaitza>
+            </partida>
+          </partidak>
+        </jardunaldia>
+        <!-- 2 JARDUNALDIA -->
+        <jardunaldia>
+          <jardunaldiZbk>2</jardunaldiZbk>
+          <partidak>
+            <partida>
+              <etxekoTaldea>Matiko Txirrindulariak</etxekoTaldea>
+              <etxekoLogoa>Matiko Txirrindulariak.png</etxekoLogoa>
+              <kanpokoTaldea>Txurdinaga Harriak</kanpokoTaldea>
+              <kanpokoLogoa>Txurdinaga Harriak.png</kanpokoLogoa>
+              <emaitza>1-3</emaitza>
+            </partida>
+            <partida>
+              <etxekoTaldea>Miribilla Uhinen Jokoak</etxekoTaldea>
+              <etxekoLogoa>Miribilla Uhinen Jokoak.png</etxekoLogoa>
+              <kanpokoTaldea>Santutxu Haizeak</kanpokoTaldea>
+              <kanpokoLogoa>Santutxu Haizeak.png</kanpokoLogoa>
+              <emaitza>3-0</emaitza>
+            </partida>
+            <partida>
+              <etxekoTaldea>Usansolo Ortzadak</etxekoTaldea>
+              <etxekoLogoa>Usansolo Ortzadak.png</etxekoLogoa>
+              <kanpokoTaldea>Otxarkoaga Distira</kanpokoTaldea>
+              <kanpokoLogoa>Otxarkoaga Distira.png</kanpokoLogoa>
+              <emaitza>0-3</emaitza>
+            </partida>
+          </partidak>
+        </jardunaldia>
+        <!-- 3 JARDUNALDIA -->
+        <jardunaldia>
+          <jardunaldiZbk>3</jardunaldiZbk>
+          <partidak>
+            <partida>
+              <etxekoTaldea>Matiko Txirrindulariak</etxekoTaldea>
+              <etxekoLogoa>Matiko Txirrindulariak.png</etxekoLogoa>
+              <kanpokoTaldea>Usansolo Ortzadak</kanpokoTaldea>
+              <kanpokoLogoa>Usansolo Ortzadak.png</kanpokoLogoa>
+              <emaitza>3-0</emaitza>
+            </partida>
+            <partida>
+              <etxekoTaldea>Txurdinaga Harriak</etxekoTaldea>
+              <etxekoLogoa>Txurdinaga Harriak.png</etxekoLogoa>
+              <kanpokoTaldea>Santutxu Haizeak</kanpokoTaldea>
+              <kanpokoLogoa>Santutxu Haizeak.png</kanpokoLogoa>
+              <emaitza>3-2</emaitza>
+            </partida>
+            <partida>
+              <etxekoTaldea>Miribilla Uhinen Jokoak</etxekoTaldea>
+              <etxekoLogoa>Miribilla Uhinen Jokoak.png</etxekoLogoa>
+              <kanpokoTaldea>Otxarkoaga Distira</kanpokoTaldea>
+              <kanpokoLogoa>Otxarkoaga Distira.png</kanpokoLogoa>
+              <emaitza>1-3</emaitza>
+            </partida>
+          </partidak>
+        </jardunaldia>
+        <!-- 4 JARDUNALDIA -->
+        <jardunaldia>
+          <jardunaldiZbk>4</jardunaldiZbk>
+          <partidak>
+            <partida>
+              <etxekoTaldea>Matiko Txirrindulariak</etxekoTaldea>
+              <etxekoLogoa>Matiko Txirrindulariak.png</etxekoLogoa>
+              <kanpokoTaldea>Santutxu Haizeak</kanpokoTaldea>
+              <kanpokoLogoa>Santutxu Haizeak.png</kanpokoLogoa>
+              <emaitza>3-1</emaitza>
+            </partida>
+            <partida>
+              <etxekoTaldea>Usansolo Ortzadak</etxekoTaldea>
+              <etxekoLogoa>Usansolo Ortzadak.png</etxekoLogoa>
+              <kanpokoTaldea>Miribilla Uhinen Jokoak</kanpokoTaldea>
+              <kanpokoLogoa>Miribilla Uhinen Jokoak.png</kanpokoLogoa>
+              <emaitza>2-3</emaitza>
+            </partida>
+            <partida>
+              <etxekoTaldea>Txurdinaga Harriak</etxekoTaldea>
+              <etxekoLogoa>Txurdinaga Harriak.png</etxekoLogoa>
+              <kanpokoTaldea>Otxarkoaga Distira</kanpokoTaldea>
+              <kanpokoLogoa>Otxarkoaga Distira.png</kanpokoLogoa>
+              <emaitza>3-0</emaitza>
+            </partida>
+          </partidak>
+        </jardunaldia>
+        <!-- 5 JARDUNALDIA -->
+        <jardunaldia>
+          <jardunaldiZbk>5</jardunaldiZbk>
+          <partidak>
+            <partida>
+              <etxekoTaldea>Matiko Txirrindulariak</etxekoTaldea>
+              <etxekoLogoa>Matiko Txirrindulariak.png</etxekoLogoa>
+              <kanpokoTaldea>Otxarkoaga Distira</kanpokoTaldea>
+              <kanpokoLogoa>Otxarkoaga Distira.png</kanpokoLogoa>
+              <emaitza>3-1</emaitza>
+            </partida>
+            <partida>
+              <etxekoTaldea>Santutxu Haizeak</etxekoTaldea>
+              <etxekoLogoa>Santutxu Haizeak.png</etxekoLogoa>
+              <kanpokoTaldea>Usansolo Ortzadak</kanpokoTaldea>
+              <kanpokoLogoa>Usansolo Ortzadak.png</kanpokoLogoa>
+              <emaitza>0-3</emaitza>
+            </partida>
+            <partida>
+              <etxekoTaldea>Miribilla Uhinen Jokoak</etxekoTaldea>
+              <etxekoLogoa>Miribilla Uhinen Jokoak.png</etxekoLogoa>
+              <kanpokoTaldea>Txurdinaga Harriak</kanpokoTaldea>
+              <kanpokoLogoa>Txurdinaga Harriak.png</kanpokoLogoa>
+              <emaitza>1-3</emaitza>
+            </partida>
+          </partidak>
+        </jardunaldia>
+      </jardunaldiak>
+      <sailkapena>
+        <taldeSailkapena>
+          <postua>1</postua>
+          <taldeIzena>Txurdinaga Harriak</taldeIzena>
+          <jokatutakoPartidak>5</jokatutakoPartidak>
+          <irabazitakoak>5</irabazitakoak>
+          <galduak>0</galduak>
+          <setakAlde>15</setakAlde>
+          <setakKontra>5</setakKontra>
+          <puntuak>15</puntuak>
+        </taldeSailkapena>
+        <taldeSailkapena>
+          <postua>2</postua>
+          <taldeIzena>Matiko Txirrindulariak</taldeIzena>
+          <jokatutakoPartidak>5</jokatutakoPartidak>
+          <irabazitakoak>4</irabazitakoak>
+          <galduak>1</galduak>
+          <setakAlde>14</setakAlde>
+          <setakKontra>7</setakKontra>
+          <puntuak>12</puntuak>
+        </taldeSailkapena>
+        <taldeSailkapena>
+          <postua>3</postua>
+          <taldeIzena>Otxarkoaga Distira</taldeIzena>
+          <jokatutakoPartidak>5</jokatutakoPartidak>
+          <irabazitakoak>3</irabazitakoak>
+          <galduak>2</galduak>
+          <setakAlde>10</setakAlde>
+          <setakKontra>9</setakKontra>
+          <puntuak>8</puntuak>
+        </taldeSailkapena>
+        <taldeSailkapena>
+          <postua>4</postua>
+          <taldeIzena>Miribilla Uhinen Jokoak</taldeIzena>
+          <jokatutakoPartidak>5</jokatutakoPartidak>
+          <irabazitakoak>2</irabazitakoak>
+          <galduak>3</galduak>
+          <setakAlde>9</setakAlde>
+          <setakKontra>11</setakKontra>
+          <puntuak>6</puntuak>
+        </taldeSailkapena>
+        <taldeSailkapena>
+          <postua>5</postua>
+          <taldeIzena>Santutxu Haizeak</taldeIzena>
+          <jokatutakoPartidak>5</jokatutakoPartidak>
+          <irabazitakoak>1</irabazitakoak>
+          <galduak>4</galduak>
+          <setakAlde>6</setakAlde>
+          <setakKontra>13</setakKontra>
+          <puntuak>3</puntuak>
+        </taldeSailkapena>
+        <taldeSailkapena>
+          <postua>6</postua>
+          <taldeIzena>Usansolo Ortzadak</taldeIzena>
+          <jokatutakoPartidak>5</jokatutakoPartidak>
+          <irabazitakoak>0</irabazitakoak>
+          <galduak>5</galduak>
+          <setakAlde>3</setakAlde>
+          <setakKontra>15</setakKontra>
+          <puntuak>0</puntuak>
+        </taldeSailkapena>
+      </sailkapena>
+    </denboraldia>
+  </denboraldiak>
+</boleibol_federazioa>
