@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="boleibol_federazioa">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="users">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="user" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="username" type="xs:string" />
+                                        <xs:element name="password" type="xs:string" />
+                                        <xs:element name="rol" type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="taldeak">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="taldea" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="taldeIzena" type="xs:string" />
+                                        <xs:element name="taldeLogoa" type="xs:string" />
+                                        <xs:element name="taldeDeskribapena" type="xs:string" />
+                                        <xs:element name="taldeLehendakaria" type="xs:string" />
+                                        <xs:element name="taldeSorrera" type="xs:string" />
+                                        <xs:element name="taldeZelaia" type="xs:string" />
+                                        <xs:element name="zelaiArgazkia" type="xs:string" />
+                                        <xs:element name="jokalariak">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="jokalaria"
+                                                        maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:choice>
+                                                                    <xs:element name="jokalariZbk"
+                                                                        type="xs:string" />
+                                                                    <xs:element
+                                                                        name="jokalariIrudia"
+                                                                        type="xs:string" />
+                                                                    <xs:element
+                                                                        name="jokalariIzenAbizena"
+                                                                        type="xs:string" />
+                                                                    <xs:element name="jokalariAdina"
+                                                                        type="xs:string" />
+                                                                    <xs:element name="generoa"
+                                                                        type="xs:string" />
+                                                                    <xs:element
+                                                                        name="jokalariPosizioa"
+                                                                        type="xs:string" />
+                                                                </xs:choice>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="denboraldiak">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="denboraldia" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="denboraldiIzena" type="xs:string" />
+                                        <xs:element name="hasieraData" minOccurs="0"
+                                            type="xs:string" />
+                                        <xs:element name="amaieraData" minOccurs="0"
+                                            type="xs:string" />
+                                        <xs:element name="jardunaldiak">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="jardunaldia"
+                                                        maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="jardunaldiZbk"
+                                                                    type="xs:string" />
+                                                                <xs:element name="partidak">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element
+                                                                                name="partida"
+                                                                                maxOccurs="unbounded">
+                                                                                <xs:complexType>
+                                                                                    <xs:sequence>
+                                                                                        <xs:element
+                                                                                            name="etxekoTaldea"
+                                                                                            type="xs:string" />
+                                                                                        <xs:element
+                                                                                            name="etxekoLogoa"
+                                                                                            type="xs:string" />
+                                                                                        <xs:element
+                                                                                            name="kanpokoTaldea"
+                                                                                            type="xs:string" />
+                                                                                        <xs:element
+                                                                                            name="kanpokoLogoa"
+                                                                                            type="xs:string" />
+                                                                                        <xs:element
+                                                                                            name="emaitza"
+                                                                                            minOccurs="0"
+                                                                                            type="xs:string" />
+                                                                                    </xs:sequence>
+                                                                                </xs:complexType>
+                                                                            </xs:element>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="sailkapena">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="taldeSailkapena"
+                                                        maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="postua"
+                                                                    type="xs:string" />
+                                                                <xs:element name="taldeIzena"
+                                                                    type="xs:string" />
+                                                                <xs:element
+                                                                    name="jokatutakoPartidak"
+                                                                    type="xs:string" />
+                                                                <xs:element name="irabazitakoak"
+                                                                    type="xs:string" />
+                                                                <xs:element name="galduak"
+                                                                    type="xs:string" />
+                                                                <xs:element name="setakAlde"
+                                                                    type="xs:string" />
+                                                                <xs:element name="setakKontra"
+                                                                    type="xs:string" />
+                                                                <xs:element name="puntuak"
+                                                                    type="xs:string" />
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

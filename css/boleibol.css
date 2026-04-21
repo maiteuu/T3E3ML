@@ -1,0 +1,2009 @@
+/* ====================== HASIERA ====================== */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(90deg, #b9a6ec, #a1d4de);
+}
+
+
+
+/* ====================== HEADER ====================== */
+header {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(90deg, #2d2f98, #332580);
+    color: white;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+.denboraldiak {
+    display: flex;
+    justify-content: end;
+    margin: 10px;
+}
+
+
+.tituloa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.usertituloa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+}
+
+h1 {
+    padding-top: 14px;
+}
+
+/* ====================== NAV ====================== */
+nav {
+    background: linear-gradient(90deg, #2d2f98, #332580);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 12px 0;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 8px 14px;
+    border-radius: 8px;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+nav ul a::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0%;
+    height: 3px;
+    background: linear-gradient(to right, #7db9f5, #ffffff);
+    border-radius: 3px;
+    transform: translateX(-50%);
+    transition: width 0.3s ease;
+}
+
+nav ul a:hover {
+    color: #e6ecff;
+}
+
+nav ul a:hover::after {
+    width: 70%;
+}
+
+nav ul a.active::after {
+    width: 80%;
+}
+
+/* ====================== PORTADA ====================== */
+.portada-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+    padding: 1rem;
+}
+
+.portada-img img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.portada-content h1 {
+    font-size: 2.5rem;
+    color: #2b2f8f;
+    margin-bottom: 1rem;
+}
+
+.portada-content .intro {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.zerDago {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1.5rem;
+}
+
+.zerDago li {
+    margin-bottom: 0.6rem;
+    font-size: 1rem;
+}
+
+.ongiEtorria {
+    font-weight: 600;
+    color: #3a3fa5;
+    font-size: 1.05rem;
+}
+
+/* ====================== Taldearen sekzioa ====================== */
+.taldeak-titulua {
+    font-size: 3rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: #1f2a8a;
+    margin: 60px 0 40px 0;
+    position: relative;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.taldeak-titulua span {
+    font-weight: 600;
+    color: #2c6fd6;
+}
+
+.taldeak-titulua::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -12px;
+    width: 120px;
+    height: 4px;
+    background: linear-gradient(to right, #2c6fd6, #7db9f5);
+    border-radius: 2px;
+    transform: translateX(-50%);
+}
+
+.info {
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 2em;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* GRID DE TARJETAS */
+.kutxak_talde {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1.5rem;
+    padding: 0 1rem;
+    justify-items: center;
+    margin-bottom: 3rem;
+}
+
+.kutxak_talde article {
+    text-align: center;
+}
+
+.kutxak_talde article p {
+    margin-top: 0.5rem;
+    font-weight: 500;
+}
+
+/* Talde Txartela */
+.card {
+    width: 100%;
+    max-width: 190px;
+    height: 254px;
+    background: #07182E;
+    position: relative;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.card img {
+    z-index: 1;
+    max-width: 80%;
+    height: auto;
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    background-image: linear-gradient(180deg, rgb(0, 183, 255), rgb(255, 48, 255));
+    height: 130%;
+    animation: rotBGimg 3s linear infinite;
+    transition: all 0.2s linear;
+}
+
+@keyframes rotBGimg {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.card::after {
+    content: '';
+    position: absolute;
+    background: #07182E;
+    inset: 5px;
+    border-radius: 15px;
+}
+
+/* Responsive egiteko */
+@media (max-width: 1024px) {
+    .portada-container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .portada-content h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+
+    nav ul a {
+        width: 90%;
+        text-align: center;
+        padding: 12px;
+    }
+
+    nav ul a::after {
+        display: none;
+    }
+
+    .taldeak-titulua {
+        font-size: 2rem;
+    }
+
+    .cta2 {
+        font-size: 1rem;
+    }
+
+    .kutxak_talde {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .taldeak-titulua {
+        font-size: 1.5rem;
+    }
+
+    .cta2 {
+        font-size: 0.95rem;
+    }
+
+    .card {
+        height: 200px;
+    }
+}
+
+
+/* ====================== KLASIFIKAZIO ORRIA EGITEKO ====================== */
+/* Taularen kontenedorea */
+.tabla-contenedor {
+    width: 90%;
+    max-width: 1300px;
+    margin: 40px auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: rgba(255, 251, 251, 0.449);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    border: solid 1px #1f2a8a;
+
+
+.comboBox {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 30px auto;
+    padding: 20px 30px;
+
+    background: linear-gradient(135deg, #1f2a8a, #3a4fd1);
+    border-radius: 15px;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.2);
+}
+
+.filtro-item {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.filtro-item label {
+    margin-bottom: 8px;
+}
+
+.filtro-item select {
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+
+    font-size: 15px;
+    cursor: pointer;
+
+    background: white;
+    color: #1f2a8a;
+
+    transition: all 0.3s ease;
+}
+
+.filtro-item select:hover {
+    transform: scale(1.05);
+}
+
+.partida_ikusi_title {
+    color: #1f2a8a;
+}
+
+.filtro-item select:focus {
+    box-shadow: 0 0 8px #ffffff;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .filtro-box {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+}   
+}
+
+/* taula */
+.tabla-klasi {
+    width: 93%;
+    border-collapse: collapse;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.95rem;
+
+}
+
+.tabla-klasi th {
+    background: linear-gradient(135deg, #2c3e50, #34495e);
+    color: white;
+    padding: 14px 10px;
+    text-align: center;
+    font-size: 0.85rem;
+}
+
+.tabla-klasi td {
+    padding: 12px 10px;
+    text-align: center;
+    border-bottom: 1px solid #f0f2f5;
+    background-color: white;
+    color: #2d3748;
+}
+
+/* zutabe espezifikoak */
+.pos-col {
+    width: 50px;
+}
+
+.team-col {
+    text-align: left;
+    min-width: 200px;
+}
+
+.points-col {
+    width: 60px;
+    font-weight: 700;
+}
+
+/* taularen barruko informazioa */
+.denboraldi_titulo {
+    color: #332580;
+    font-weight: bold;
+    margin-left: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.team-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.team-info img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
+
+.team-info span {
+    font-weight: 600;
+}
+
+/* posizioaren koloreak */
+tr.champions {
+    background-color: rgba(16, 185, 129, 0.05);
+    border-left: 4px solid #10b981;
+}
+
+tr.europa {
+    background-color: rgba(59, 130, 246, 0.05);
+    border-left: 4px solid #3b82f6;
+}
+
+tr.relegation {
+    background-color: rgba(239, 68, 68, 0.05);
+    border-left: 4px solid #ef4444;
+}
+
+
+/* Klasifikazioaren responsive */
+
+@media (max-width: 480px) {
+
+    /* Titulu nagusia gehiago txikitu */
+    .klasi_titulua {
+        font-size: 1.4rem;
+    }
+
+    /* Taula horizontalki mugi dadin */
+    .tabla-contenedor {
+        overflow-x: auto;
+    }
+
+    /* Ikonoak txikiagoak mugikorrean */
+    .team-info img {
+        width: 26px;
+        height: 26px;
+    }
+
+    /* Testu orokorra txikiago */
+    .tabla-klasi th,
+    .tabla-klasi td {
+        font-size: 0.8rem;
+        margin: auto;
+    }
+}
+
+/* ====================== BERRIAK ====================== */
+.berriak-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem 4rem;
+}
+
+.notizien-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+/* Berrien kutxa */
+.notizia-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.notizia-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Berrien header */
+.notizia-header {
+    background: linear-gradient(135deg, #2c3e50, #34495e);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.notizia-category {
+    background: #006494;
+    color: white;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.notizia-date {
+    color: #e1e6ed;
+    font-size: 0.9rem;
+}
+
+.notizia-content {
+    padding: 1.5rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.notizia-title {
+    color: #1f3c56;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    line-height: 1.3;
+}
+
+.notizia-summary p {
+    color: #4a5568;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.notizia-full {
+    margin-top: 1rem;
+}
+
+.notizia-full p {
+    color: #4a5568;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.notizia-image {
+    margin: 1.5rem 0;
+}
+
+.notizia-image img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-caption {
+    font-size: 0.9rem;
+    color: #718096;
+    text-align: center;
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+
+.notizia-stats {
+    background: #f8fafc;
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+    border-left: 4px solid #006494;
+}
+
+.notizia-stats h3 {
+    color: #2d3748;
+    margin-bottom: 0.8rem;
+    font-size: 1.1rem;
+}
+
+.notizia-stats ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.notizia-stats li {
+    padding: 0.3rem 0;
+    color: #4a5568;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.notizia-stats li:last-child {
+    border-bottom: none;
+}
+
+.notizia-quote {
+    background: linear-gradient(135deg, rgba(0, 100, 148, 0.1), rgba(22, 9, 86, 0.05));
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+    border-left: 4px solid #006494;
+}
+
+.notizia-quote blockquote {
+    font-size: 1.1rem;
+    color: #2d3748;
+    font-style: italic;
+    line-height: 1.6;
+    margin-bottom: 0.5rem;
+}
+
+.notizia-quote cite {
+    color: #718096;
+    font-size: 0.9rem;
+    font-style: normal;
+    display: block;
+    text-align: right;
+}
+
+.notizia-actions {
+    padding: 1rem 1.5rem;
+    background: #f8fafc;
+    border-top: 1px solid #e2e8f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.read-more-btn,
+.read-less-btn {
+    background: #006494;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: background-color 0.2s ease;
+    font-family: inherit;
+}
+
+.read-more-btn:hover,
+.read-less-btn:hover {
+    background: #004d73;
+}
+
+.read-less-btn {
+    background: #4a5568;
+}
+
+.read-less-btn:hover {
+    background: #2d3748;
+}
+
+/*  Erakutsi botoia */
+#btnErakutsi {
+    background: #2d2f98;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: background-color 0.2s ease;
+}
+
+#btnErakutsi:hover {
+    background: #395abd;
+}
+
+/* Botón Ezkutatu simplificado */
+#bntEzkutatu {
+    background: #2d2f98;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: background-color 0.2s ease;
+}
+
+#bntEzkutatu:hover {
+    background: #395abd;
+}
+
+/* Responsive egiteko */
+@media (max-width: 768px) {
+    .nav-menu {
+        display: none;
+    }
+
+    .header-title {
+        font-size: 2rem;
+    }
+
+    .notizien-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .berriak-container {
+        padding: 0 1rem 3rem;
+    }
+
+    .notizia-content {
+        padding: 1rem;
+    }
+
+    .notizia-title {
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .notizien-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1025px) {
+    .notizien-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+/* ====================== TALDEAK ETA JOKALARIAK ====================== */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+}
+
+
+.taldeinfo {
+    max-width: 900px;
+    margin: 40px auto;
+    background: linear-gradient(to right, #accef0, #edd4f9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+    border: solid 1px #1e3a8a;
+    ;
+}
+
+/* Taldearen izen diseinua */
+.talde-izena {
+    text-align: center;
+    color: #1e3a8a;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+/* logoa */
+.talde-logo {
+    display: block;
+    margin: auto;
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+/* Taldearen infromazio diseinua */
+.talde-datuak {
+    background: rgba(255, 255, 255, 0.455);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+
+}
+
+.jokalaroTaula {
+    background: rgba(255, 255, 255, 0.496);
+    padding: 17px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.datu {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+/* Zelaien argazkia */
+.zelaiak {
+    width: 100%;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.jokalariIrudi {
+    width: 50px;
+
+}
+
+
+.jokalari-titulo {
+    margin-top: 10px;
+    color: #1e3a8a;
+}
+
+/* Jokalariaren tabla */
+.jokalari-taula {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 6px;
+}
+
+.jokalari-taula th {
+    background-color: #1e3a8a;
+    color: white;
+    padding: 10px;
+}
+
+.jokalari-taula td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    background-color: white;
+}
+
+.jokalari-taula tr:hover {
+    background-color: #f1f5f9;
+}
+
+/* ====================== PARTIDUAK ====================== */
+
+:root {
+    --primary: #1f3c56;
+    --secondary: #006494;
+    --accent: #00a8e8;
+    --light: #f8fafc;
+    --dark: #2d3748;
+    --border: #e2e8f0;
+    --shadow: rgba(0, 100, 148, 0.08);
+    --radius: 12px;
+    --win: #2ecc71;
+    --loss: #e74c3c;
+    --draw: #95a5a6;
+}
+
+.partidak-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem 4rem;
+}
+
+.partidak-titulua {
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin: 3rem 0 4rem;
+    letter-spacing: -0.8px;
+    position: relative;
+    padding-bottom: 1.5rem;
+}
+
+.partidak-titulua::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120px;
+    height: 5px;
+    background: linear-gradient(90deg, var(--secondary), var(--accent));
+    border-radius: 3px;
+}
+
+/* ===== DENBORALDIA ===== */
+.denboraldia {
+    background: linear-gradient(90deg, #e0f0ff 0%, #f0e6ff 100%);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+    border-radius: var(--radius);
+    padding: 2.5rem;
+    margin-bottom: 3rem;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+    border: 1px solid var(--border);
+    position: relative;
+    overflow: hidden;
+}
+
+.denboraldia::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 6px;
+    height: 100%;
+    background: linear-gradient(180deg, var(--secondary), var(--accent));
+}
+
+.denboraldia h2 {
+    font-size: 1.9rem;
+    color: var(--primary);
+    margin-bottom: 2rem;
+    padding-bottom: 1.2rem;
+    border-bottom: 2px solid var(--border);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.denboraldia h2 span.urteak {
+    background: linear-gradient(135deg, var(--secondary), var(--accent));
+    color: white;
+    padding: 0.3rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+/* ===== JARDUNALDIA ===== */
+.jardunaldia {
+    margin-bottom: 2.5rem;
+    background: linear-gradient(90deg, #c0defa 0%, #ddccf6 100%);
+    border-radius: 10px;
+    padding: 1.8rem;
+    border: 1px solid var(--border);
+    transition: all 0.3s ease;
+}
+
+.jardunaldia:hover {
+    border-color: var(--secondary);
+    box-shadow: 0 4px 15px rgba(0, 100, 148, 0.1);
+}
+
+.jardunaldia.actual {
+    background: linear-gradient(135deg, rgba(0, 164, 232, 0.03), rgba(0, 100, 148, 0.05));
+    border: 2px solid var(--accent);
+}
+
+.jardunaldia h3 {
+    font-size: 1.4rem;
+    color: var(--primary);
+    margin-bottom: 1.5rem;
+    padding-left: 1.2rem;
+    position: relative;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.jardunaldia h3::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 5px;
+    height: 24px;
+    background: linear-gradient(180deg, var(--secondary), var(--accent));
+    border-radius: 3px;
+}
+
+.jardunaldia.actual h3::before {
+    background: linear-gradient(180deg, var(--accent), #00c6ff);
+    width: 6px;
+}
+
+.partida-taulak {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+/* ====================== PARTIDUAK ====================== */
+.partida {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 2px; 
+
+    padding: 1.5rem 2rem;
+    background: linear-gradient(90deg, #e0f0ff 0%, #f0e6ff 100%);
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.partida::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 3px;
+    background: var(--border);
+    transition: all 0.3s ease;
+}
+
+.partida:hover {
+    transform: translateY(-3px);
+    border-color: var(--secondary);
+    box-shadow: 0 6px 20px rgba(0, 100, 148, 0.12);
+}
+
+.partida:hover::before {
+    background: linear-gradient(180deg, var(--secondary), var(--accent));
+}
+
+/* Estados del partido */
+.partida.jugado.ganado::before {
+    background: var(--win);
+}
+
+.partida.jugado.perdido::before {
+    background: var(--loss);
+}
+
+.partida.jugado.empatado::before {
+    background: var(--draw);
+}
+
+.partidu_tituloa {
+    font-size: 2rem;
+    font-weight: 100;
+    letter-spacing: 2px;
+    color: #1f2a8a;
+    margin: 50px 0 40px 0;
+    position: relative;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+/* ====================== TALDEAK ====================== */
+.taldeak {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    min-width: 0;
+    gap: 1rem;
+}
+
+.taldeak img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.etxekoa,
+.kanpokoa {
+    font-size: 1.15rem;
+    font-weight: 600;
+    padding: 0.8rem 1.2rem;
+    border-radius: 8px;
+    text-align: center;
+    flex: 1;
+    max-width: 45%;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.etxekoa {
+    background: rgba(0, 100, 148, 0.05);
+    color: var(--secondary);
+    border: 1px solid rgba(0, 100, 148, 0.15);
+}
+
+.kanpokoa {
+    background: rgba(31, 60, 86, 0.05);
+    color: var(--primary);
+    border: 1px solid rgba(31, 60, 86, 0.15);
+}
+
+.etxekoa::after,
+.kanpokoa::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+    transition: left 0.6s ease;
+}
+
+.etxekoa:hover::after,
+.kanpokoa:hover::after {
+    left: 100%;
+}
+
+.vs {
+    margin: 0 1rem;
+    color: #718096;
+    font-weight: 500;
+    font-size: 0.95rem;
+    min-width: 35px;
+    text-align: center;
+    background: var(--light);
+    padding: 0.5rem 0.8rem;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+}
+
+/* ===== Emaitza ===== */
+.emaitza {
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.8rem 1.5rem;
+    border-radius: 10px;
+    min-width: 110px;
+    text-align: center;
+    transition: all 0.3s ease;
+    letter-spacing: 0.5px;
+}
+
+/* Emaitzak jokatuta */
+.partida.jugado .emaitza {
+    background: rgba(46, 204, 113, 0.1);
+    color: var(--win);
+    border: 1px solid rgba(46, 204, 113, 0.2);
+}
+
+/* Irabazitako partiduak */
+.partida.ganado .emaitza {
+    background: rgba(46, 204, 113, 0.15);
+    color: var(--win);
+    border-color: rgba(46, 204, 113, 0.3);
+}
+
+/* Galdutako partiduak */
+.partida.perdido .emaitza {
+    background: rgba(231, 76, 60, 0.1);
+    color: var(--loss);
+    border-color: rgba(231, 76, 60, 0.2);
+}
+
+/* Berdinketa partiduak */
+.partida.empatado .emaitza {
+    background: rgba(149, 165, 166, 0.1);
+    color: var(--draw);
+    border-color: rgba(149, 165, 166, 0.2);
+}
+
+/* Partidua programatuak */
+.partida.programado .emaitza {
+    background: rgba(255, 193, 7, 0.08);
+    color: #d4a017;
+    border: 1px solid rgba(255, 193, 7, 0.2);
+    font-style: italic;
+}
+
+
+.estado-partida {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    font-size: 0.75rem;
+    padding: 0.2rem 0.6rem;
+    border-radius: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.partida.jugado .estado-partida {
+    background: rgba(46, 204, 113, 0.15);
+    color: var(--win);
+}
+
+.partida.programado .estado-partida {
+    background: rgba(255, 193, 7, 0.15);
+    color: #d4a017;
+}
+
+/* ===== Eguna eta ordua ===== */
+.fecha-partida {
+    position: absolute;
+    bottom: 0.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.85rem;
+    color: #718096;
+    background: white;
+    padding: 0.2rem 0.8rem;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    white-space: nowrap;
+}
+
+/* ====================== responsive ====================== */
+@media (max-width: 768px) {
+    .partidak-container {
+        padding: 0 1.5rem 3rem;
+    }
+
+    .partidak-titulua {
+        font-size: 2.2rem;
+        margin: 2rem 0 3rem;
+    }
+
+    .denboraldia {
+        padding: 2rem 1.5rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .denboraldia h2 {
+        font-size: 1.6rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+
+    .jardunaldia {
+        padding: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .jardunaldia h3 {
+        font-size: 1.2rem;
+    }
+
+    .partida {
+        flex-direction: column;
+        gap: 1.2rem;
+        padding: 1.8rem 1.5rem;
+        position: relative;
+    }
+
+    .partida::before {
+        width: 100%;
+        height: 3px;
+        top: 0;
+        left: 0;
+    }
+
+    .taldeak {
+        width: 100%;
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+
+    .etxekoa,
+    .kanpokoa {
+        max-width: 100%;
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .vs {
+        order: -1;
+        margin: 0.5rem 0;
+        padding: 0.4rem 1.2rem;
+    }
+
+    .emaitza {
+        width: 100%;
+        margin-top: 0.5rem;
+        padding: 1rem;
+    }
+
+    .estado-partida {
+        top: 0.8rem;
+        right: 0.8rem;
+    }
+
+    .fecha-partida {
+        position: relative;
+        bottom: auto;
+        left: auto;
+        transform: none;
+        margin-top: 0.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .partidak-titulua {
+        font-size: 1.9rem;
+        padding-bottom: 1rem;
+    }
+
+    .partidak-titulua::after {
+        width: 80px;
+        height: 4px;
+    }
+
+    .denboraldia {
+        padding: 1.5rem 1.2rem;
+    }
+
+    .denboraldia h2 {
+        font-size: 1.4rem;
+    }
+
+    .jardunaldia h3 {
+        font-size: 1.1rem;
+        padding-left: 1rem;
+    }
+
+    .etxekoa,
+    .kanpokoa {
+        font-size: 1.05rem;
+        padding: 0.9rem;
+    }
+
+    .emaitza {
+        font-size: 1.1rem;
+    }
+}
+
+/* Mezua partiduak ez dagoenean */
+.partida-taulak:empty::before {
+    content: 'Ez dago partidurik erakusteko.';
+    text-align: center;
+    color: #a0aec0;
+    padding: 3rem;
+    display: block;
+    font-style: italic;
+    background: var(--light);
+    border-radius: 10px;
+    border: 2px dashed var(--border);
+}
+
+/* Separador entre jornadas */
+.jardunaldia:not(:last-child) {
+    margin-bottom: 2.5rem;
+}
+
+/* Mejoras tipográficas */
+.etxekoa,
+.kanpokoa {
+    letter-spacing: 0.2px;
+    font-weight: 600;
+}
+
+.vs {
+    font-weight: 500;
+    opacity: 0.9;
+}
+
+/* Espaciado interno de la tabla */
+.partida-taulak {
+    padding: 0.5rem 0;
+}
+
+/* ====================== LOGIN ====================== */
+
+.login {
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+
+}
+
+
+
+/* Hau login-eko diseinurako da, diseinu hau "Uiverse.io"-etik atera dugu*/
+.card3 {
+    width: 190px;
+    height: 254px;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+}
+
+.card__content3 {
+    background: rgb(68, 69, 102);
+    border-radius: 17px;
+    width: 100%;
+    height: 100%;
+}
+
+.form {
+    position: relative;
+    display: block;
+    padding: 2.2rem;
+    max-width: 350px;
+    background: linear-gradient(14deg,
+            rgba(2, 0, 36, 0.8) 0%,
+            rgba(24, 24, 65, 0.7) 66%,
+            rgb(20, 76, 99) 100%),
+        radial-gradient(circle,
+            rgba(2, 0, 36, 0.5) 0%,
+            rgba(32, 15, 53, 0.2) 65%,
+            rgba(14, 29, 28, 0.9) 100%);
+    border: 2px solid #fff;
+    -webkit-box-shadow: rgba(0, 212, 255) 0px 0px 50px -15px;
+    box-shadow: rgba(0, 212, 255) 0px 0px 50px -15px;
+    overflow: hidden;
+    z-index: +1;
+    border-radius: 8px;
+}
+
+.user_pass {
+    color: white;
+}
+
+.input-container {
+    position: relative;
+    display: block;
+    margin-top: -0.5rem;
+    font-size: 0.90rem;
+    font-weight: 770;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #344aea 0.1rem;
+    letter-spacing: 0.2rem;
+
+}
+
+.input-container input,
+.form button {
+    outline: none;
+    border: 2px solid #ffffff;
+    margin: 8px 0;
+    font-family: monospace;
+    border-radius: 4px;
+}
+
+.input-container input {
+    background-color: #fff;
+    padding: 6px;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    width: 250px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.input-mail:focus::placeholder {
+    opacity: 0;
+    transition: opacity 0.9s;
+}
+
+.input-pwd:focus::placeholder {
+    opacity: 0;
+    transition: opacity 0.9s;
+}
+
+.submit {
+    position: relative;
+    display: block;
+    padding: 8px;
+    background: linear-gradient(90deg, #243949 0%, #517fa4 100%);
+    color: #ffffff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    width: 100%;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+
+.submit:hover {
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    box-shadow: 4px 5px 17px -4px #ffffff;
+    cursor: pointer;
+}
+
+.submit:hover::before {
+    -webkit-animation: sh02 0.5s 0s linear;
+    -moz-animation: sh02 0.5s 0s linear;
+    animation: sh02 0.5s 0s linear;
+}
+
+.submit::before {
+    content: "";
+    display: block;
+    width: 0px;
+    height: 85%;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    opacity: 0;
+    background: #fff;
+    box-shadow: 0 0 50px 30px #fff;
+    -webkit-transform: skewX(-20deg);
+    -moz-transform: skewX(-20deg);
+    -ms-transform: skewX(-20deg);
+    -o-transform: skewX(-20deg);
+    transform: skewX(-20deg);
+}
+
+@keyframes sh02 {
+    from {
+        opacity: 0;
+        left: 0%;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+        left: 100%;
+    }
+}
+
+
+.signup-link {
+    color: #c0c0c0;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    text-align: center;
+    font-family: monospace;
+}
+
+.signup-link a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.up:hover {
+    text-decoration: underline;
+}
+
+
+.form-title {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-family: monospace;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    animation-duration: 1.5s;
+    overflow: hidden;
+    transition: 0.12s;
+}
+
+.form-title span {
+    animation: flickering 2s linear infinite both;
+}
+
+.title-2 {
+    display: block;
+    margin-top: -0.5rem;
+    font-size: 2.1rem;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    -webkit-text-stroke: #fff 0.1rem;
+    letter-spacing: 0.2rem;
+    color: transparent;
+    position: relative;
+    text-shadow: 0px 0px 16px #cecece;
+}
+
+.title-2 span::before,
+.title-2 span::after {
+    content: "—";
+}
+
+@keyframes flickering {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    41.99% {
+        opacity: 1;
+    }
+
+    42% {
+        opacity: 0;
+    }
+
+    43% {
+        opacity: 0;
+    }
+
+    43.01% {
+        opacity: 1;
+    }
+
+    47.99% {
+        opacity: 1;
+    }
+
+    48% {
+        opacity: 0;
+    }
+
+    49% {
+        opacity: 0;
+    }
+
+    49.01% {
+        opacity: 1;
+    }
+}
+
+
+.bg-stars {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    background-size: cover;
+    animation: animateBg 50s linear infinite;
+}
+
+@keyframes animateBg {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+}
+
+.star {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 4px;
+    height: 4px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.1),
+        0 0 0 8px rgba(255, 255, 255, 0.1), 0 0 20px rgba(255, 255, 255, 0.1);
+    animation: animate 3s linear infinite;
+}
+
+.star::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 300px;
+    height: 1px;
+    background: linear-gradient(90deg, #fff, transparent);
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(315deg) translateX(0);
+        opacity: 1;
+    }
+
+    70% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: rotate(315deg) translateX(-1000px);
+        opacity: 0;
+    }
+}
+
+.star:nth-child(1) {
+    top: 0;
+    right: 0;
+    left: initial;
+    animation-delay: 0s;
+    animation-duration: 1s;
+}
+
+.star:nth-child(2) {
+    top: 0;
+    right: 100px;
+    left: initial;
+    animation-delay: 0.2s;
+    animation-duration: 3s;
+}
+
+.star:nth-child(3) {
+    top: 0;
+    right: 220px;
+    left: initial;
+    animation-delay: 2.75s;
+    animation-duration: 2.75s;
+}
+
+.star:nth-child(4) {
+    top: 0;
+    right: -220px;
+    left: initial;
+    animation-delay: 1.6s;
+    animation-duration: 1.6s;
+}
+
+.error {
+    color: red;
+}
+
+
+/* sección centrada */
+.denboraldi-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+/* tarjeta del formulario */
+.denboraldi-form {
+    background: white;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* título */
+.denboraldi-form h2 {
+    margin-bottom: 20px;
+    color: #1e3a8a;
+}
+
+/* label */
+.denboraldi-form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* select */
+.denboraldi-form select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+/* botón */
+.botoia {
+    width: 100%;
+    padding: 10px;
+    background-color: #1e3a8a;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* animación botón */
+.botoia:hover {
+    background-color: #3b82f6;
+    transform: scale(1.05);
+}
+
+
+/* ====================== KONTAKTUA ====================== */
+/* Kontaktu diseinua egiteko 'Uiverse.io' orritik hartu dugu */ 
+.form-container {
+  width: 400px;
+  background: linear-gradient(#68aecf, #9259b5) padding-box,
+              linear-gradient(145deg, transparent 35%,#e81cff, #40c9ff) border-box;
+  border: 2px solid transparent;
+  padding: 32px 24px;
+  font-size: 14px;
+  font-family: inherit;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+
+.form-container button:active {
+  scale: 0.95;
+}
+
+.form-container .form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: #85c9e445;
+}
+
+.form-container .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.form-container .form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #fff6f6;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.form-container .form-group input {
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 8px;
+  color: #fff;
+  font-family: inherit;
+  background-color: transparent;
+  border: 1px solid #414141;
+}
+
+.form-container .form-group textarea {
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 8px;
+  resize: none;
+  color: #fff;
+  height: 96px;
+  border: 1px solid #414141;
+  background-color: transparent;
+  font-family: inherit;
+}
+
+.form-container .form-group input::placeholder {
+  opacity: 0.5;
+}
+
+.form-container .form-group input:focus {
+  outline: none;
+  border-color: #e81cff;
+}
+
+.form-container .form-group textarea:focus {
+  outline: none;
+  border-color: #e81cff;
+}
+
+.form-container .form-submit-btn {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: flex-start;
+  font-family: inherit;
+  color: #0b0b0b;
+  font-weight: 600;
+  width: 40%;
+  background: #8bdbe985;
+  border: 1px solid #414141;
+  padding: 12px 16px;
+  font-size: inherit;
+  gap: 8px;
+  margin-top: 8px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.form-container .form-submit-btn:hover {
+  background-color: #fff;
+  border-color: #fff;
+}
+
+
+/* ////////////////////////////////////////////////////////////////// FOOTER ////////////////////////////////////////////////////////////////// */
+
+footer {
+    background: linear-gradient(90deg, #2d2f98, #332580);
+    color: white;
+    padding: 3rem 1.5rem 2rem;
+}
+
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+
+.footer-brand h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+
+.footer-brand p {
+    margin: 0;
+    font-size: 0.95rem;
+    color: var(--soft);
+    line-height: 1.5;
+}
+
+.footer-section h4 {
+    margin-bottom: 0.75rem;
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #e6e9ff;
+}
+
+
+.footer-section p {
+    margin: 0.25rem 0;
+    font-size: 0.95rem;
+    color: var(--soft);
+}
+
+
+.footer-divider {
+    margin: 2rem 0 1.5rem;
+    height: 1px;
+    background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.4), transparent);
+}
+
+
+.footer-bottom {
+    text-align: center;
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-social {
+    right: 2rem;
+    bottom: 2.5rem;
+    display: flex;
+    gap: 0.75rem;
+}
+
+.footer-social a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.footer-social img {
+    width: 45px;
+    height: 45px;
+    opacity: 0.85;
+}
+
+.footer-social a:hover img {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+#flecha {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: none;
+    background: linear-gradient(135deg, #2c6fd6, #7db9f5);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease;
+    z-index: 1000;
+}
+
+#flecha:hover {
+    transform: translateY(-6px);
+}
+
